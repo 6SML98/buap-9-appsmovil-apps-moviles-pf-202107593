@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_page">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardInicio"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="#6F2B1A16"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Control de Asistencia QR"
+                android:gravity="center"
+                android:textColor="#F1D6A2"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Selecciona tu acceso"
+                android:gravity="center"
+                android:textColor="#DDBB84"
+                android:textSize="16sp"
+                android:layout_marginBottom="20dp" />
+
+            <Button
+                android:id="@+id/btnIrAdmin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Administrador"
+                android:textStyle="bold"
+                android:textColor="#FFF3E0"
+                android:background="@drawable/bg_button_brown"
+                android:backgroundTint="@null"
+                app:backgroundTint="@null"
+                style="@style/Widget.Material3.Button"
+                android:layout_marginBottom="12dp" />
+
+            <Button
+                android:id="@+id/btnIrAlumno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alumno"
+                android:textStyle="bold"
+                android:textColor="#FFF3E0"
+                android:background="@drawable/bg_button_brown"
+                android:backgroundTint="@null"
+                app:backgroundTint="@null" />
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PF_202107593" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/brown_primary</item>
+        <item name="colorOnPrimary">@color/brown_on_primary</item>
+        <item name="colorPrimaryContainer">@color/brown_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/brown_on_primary_container</item>
+    </style>
+
+    <style name="Theme.PF_202107593" parent="Base.Theme.PF_202107593" />
+</resources>
