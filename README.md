@@ -1,25 +1,21 @@
 # Asistencias · Android
 
-Proyecto final Android en Kotlin para administrar alumnos y asistencias con Firebase configurable.
+Aplicación Android nativa para alumnos, listas, asistencias y escaneo de códigos QR, desarrollada en Kotlin.
 
-Proyecto académico de BUAP. Proyecto final seleccionado.
+## Requisitos
 
-## Documentación y requisitos
+Android Studio, JDK compatible con Gradle 8.13, Android SDK 36 y las dependencias definidas en Gradle.
 
+## Ejecutar
 
+Abre esta carpeta en Android Studio. Sustituye app/google-services.json por el archivo de tu propio proyecto Firebase, registrado con el applicationId com.example.pf_202107593.
 
-## Tecnologías y archivos
+```text
+gradlew.bat assembleDebug
+```
 
-Extensiones de código: .bat, .gradle, .json, .kt, .xml.
+El APK aparece en app/build/outputs/apk/debug/.
 
-## Ejecución
+## Verificación del 8 de octubre de 2026
 
-Abrir la carpeta con Android Studio e instalar el SDK que solicita Gradle. Generar una configuración Firebase propia si el proyecto la utiliza.
-
-## Contenido publicado
-
-Se conserva el código y los recursos referenciados. Se excluyen dependencias instaladas, resultados de compilación, configuraciones personales, documentos ajenos al programa y datos locales. Las configuraciones Firebase incluidas son ejemplos que deben reemplazarse por las de un proyecto propio.
-
-## Estado
-
-Archivo académico original. Puede contener operaciones pendientes o dependencias antiguas. No se ha verificado la ejecución de todos los programas.
+Código compilado y APK debug generado con Gradle 8.13 y AGP 8.13.2. También se ejecutó la prueba unitaria de plantilla; no valida las funciones de la aplicación. No se probó en dispositivo/emulador ni contra Firestore. La configuración Firebase incluida es ficticia y requiere sustitución; el menú administrativo no reemplaza reglas de acceso a datos.
